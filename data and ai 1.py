@@ -120,3 +120,7 @@ print(f"x >> 1 is {x >> 1}")  # Right shift
 my_list = [1, 2, 3, 4, 5]
 print(f"2 is in my_list: {2 in my_list}")  # True
 print(f"6 is not in my_list: {6 not in my_list}")  # True
+
+#hexadecimal numbers
+hex_num = 0x1A  # Hexadecimal representation of 26
+print(f"The hexadecimal number 0x1A is equal to {hex_num} in decimal.")
