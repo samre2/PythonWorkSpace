@@ -124,3 +124,17 @@ print(f"6 is not in my_list: {6 not in my_list}")  # True
 #hexadecimal numbers
 hex_num = 0x1A  # Hexadecimal representation of 26
 print(f"The hexadecimal number 0x1A is equal to {hex_num} in decimal.")
+
+#sequence types
+#1. Lists
+my_list = [1, 2, 3, 4, 5]
+print(f"My list is: {my_list}")
+#2. Tuples
+my_tuple = (1, 2, 3, 4, 5)
+print(f"My tuple is: {my_tuple}")
+#3. Strings
+my_string = "Hello, World!"
+print(f"My string is: {my_string}")
+
+
+
