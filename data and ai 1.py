@@ -116,3 +116,7 @@ print(f"~x is {~x}")  # Bitwise NOT
 print(f"x << 1 is {x << 1}")  # Left shift
 print(f"x >> 1 is {x >> 1}")  # Right shift 
 
+#membership operators     in, not in
+my_list = [1, 2, 3, 4, 5]
+print(f"2 is in my_list: {2 in my_list}")  # True
+print(f"6 is not in my_list: {6 not in my_list}")  # True
