@@ -136,5 +136,22 @@ print(f"My tuple is: {my_tuple}")
 my_string = "Hello, World!"
 print(f"My string is: {my_string}")
 
-
-
+#classification of data types
+#1. Numeric types: int, float, complex
+num1 = 10  # Integer
+num2 = 3.14  # Float
+num3 = 2 + 3j  # Complex number
+print(f"num1 is {num1}, num2 is {num2}, and num3 is {num3}")
+#2. Sequence types: list, tuple, range
+my_list = [1, 2, 3, 4, 5]  # List
+my_tuple = (1, 2, 3, 4, 5)  # Tuple
+my_range = range(1, 10)  # Range
+print(f"My list is: {my_list}")
+print(f"My tuple is: {my_tuple}")
+print(f"My range is: {list(my_range)}")
+#3. Text type: str
+my_string = "Hello, World!"  # String
+print(f"My string is: {my_string}")
+#4. Mapping type: dict
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}  # Dictionary
+print(f"My dictionary is: {my_dict}")
