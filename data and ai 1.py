@@ -151,3 +151,19 @@ print(f"My string is: {my_string}")
 #4. Mapping type: dict
 my_dict = {"name": "Alice", "age": 30, "city": "New York"}  # Dictionary
 print(f"My dictionary is: {my_dict}")
+
+
+#set types: set, frozenset
+my_set = {1, 2, 3, 4, 5}  # Set
+my_frozenset = frozenset([1, 2, 3, 4, 5])  # Frozenset
+print(f"My set is: {my_set}")
+print(f"My frozenset is: {my_frozenset}")
+
+#unordered collection of unique elements
+my_set = {1, 2, 3, 4, 5}
+print(f"My set is: {my_set}")
+my_set.add(6)  # Adding an element to the set
+print(f"After adding 6, my set is: {my_set}")
+my_set.remove(3)  # Removing an element from the set
+print(f"After removing 3, my set is: {my_set}")
+
