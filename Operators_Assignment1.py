@@ -4,8 +4,8 @@
 
 print("Demonstrating operator precedence and associativity in Python")  
 # Example 1: * and / are evaluated before + and -
-result1 = 3 + 4 * 2  # Expected result: 11, because multiplication is evaluated before addition
-print(result1)  
+result1 = 3 + 4 * 2  
+print(result1)  # Expected result: 11, because multiplication is evaluated before addition
 
 print((3 + 4) * 2)  # Expected result: 14, because parentheses override operator precedence
 
@@ -32,6 +32,7 @@ print("Demonstrating assignment operators in Python")
 # Example 1: Basic assignment
 a = 10
 print(a)  # Expected output: 10 
+
 # Example 2: Using augmented assignment operators
 a += 5  # Equivalent to a = a + 5
 print(a)  # Expected output: 15
