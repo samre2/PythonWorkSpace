@@ -116,3 +116,54 @@ print(f"~x is {~x}")  # Bitwise NOT
 print(f"x << 1 is {x << 1}")  # Left shift
 print(f"x >> 1 is {x >> 1}")  # Right shift 
 
+#membership operators     in, not in
+my_list = [1, 2, 3, 4, 5]
+print(f"2 is in my_list: {2 in my_list}")  # True
+print(f"6 is not in my_list: {6 not in my_list}")  # True
+
+#hexadecimal numbers
+hex_num = 0x1A  # Hexadecimal representation of 26
+print(f"The hexadecimal number 0x1A is equal to {hex_num} in decimal.")
+
+
+
+#classification of data types
+
+#1. Numeric types: int, float, complex
+num1 = 10  # Integer
+num2 = 3.14  # Float
+num3 = 2 + 3j  # Complex number
+print(f"num1 is {num1}, num2 is {num2}, and num3 is {num3}")
+
+#2. Sequence types: list, tuple, range
+
+my_list = [1, 2, 3, 4, 5]  # List
+my_tuple = (1, 2, 3, 4, 5)  # Tuple
+my_range = range(1, 10)  # Range
+print(f"My list is: {my_list}")
+print(f"My tuple is: {my_tuple}")
+print(f"My range is: {list(my_range)}")
+
+#3. Text type: str
+
+my_string = "Hello, World!"  # String
+print(f"My string is: {my_string}")
+#4. Mapping type: dict
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}  # Dictionary
+print(f"My dictionary is: {my_dict}")
+
+
+#set types: set, frozenset
+my_set = {1, 2, 3, 4, 5}  # Set
+my_frozenset = frozenset([1, 2, 3, 4, 5])  # Frozenset
+print(f"My set is: {my_set}")
+print(f"My frozenset is: {my_frozenset}")
+
+#unordered collection of unique elements
+my_set = {1, 2, 3, 4, 5}
+print(f"My set is: {my_set}")
+my_set.add(6)  # Adding an element to the set
+print(f"After adding 6, my set is: {my_set}")
+my_set.remove(3)  # Removing an element from the set
+print(f"After removing 3, my set is: {my_set}")
+
