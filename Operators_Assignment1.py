@@ -46,5 +46,6 @@ print(a)  # Expected output: 36.0
 a //= 5  # Equivalent to a = a // 5
 
 print(a)  # Expected output: 7.0
-        
 
+
+print("End of demonstration")   
