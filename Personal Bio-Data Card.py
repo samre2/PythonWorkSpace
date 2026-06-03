@@ -1,22 +1,3 @@
-# Assignment name: Day 3 – Mini Project: Personal Bio-Data Card
-
-# Description: Build a program that collects a person's details and stores each piece in the appropriate Python data type, then prints a formatted bio-data card.
-
-# Activity instructions: Write a Python program that builds a personal bio-data card. It must deliberately use a different data type for each kind of information:
-
-#Read the full name and city as strings.
-#Read age as an int and height as a float.
-#Create a boolean (bool) from a yes/no question, for example "Are you a student?".
-#Read the birth day, month, and year and store them together in a tuple (immutable).
-#Read three hobbies and store them in a list.
-#Read three languages and store them in a set, so any duplicate is dropped automatically.
-#Combine all of the above into a single dictionary representing the full profile.
-#Use string indexing to display the first letter of the name, and len() to report how many hobbies and unique languages there are.
-#Print a formatted card, and include type() next to a few fields to confirm the data type used.
-#Test it once with a duplicate language entered on purpose, and confirm the set keeps only one copy. Submit the file and your sample output.
-
-
-
 #Personal Bio-Data Card
 print("Welcome to the personal bio-data card generator!")
 
@@ -57,7 +38,7 @@ for i in range(3):
     #Step 3 : Display the bio-data card
     print("\n--- Personal Bio-Data Card ---")
     for key, value in profile.items():
-        print(f"{key}: {value}")
+        print(f"{key}: {value} ")
 
     # Display additional information
     print(f"\nFirst letter of the name: {profile['Full Name'][0]}")
