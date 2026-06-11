@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
         if choice == "4":
             print("Goodbye!")
-            breakgit 
+            break 
 
         if choice in ("1", "2"):
             target_title = input("Enter the exact book title: ").strip().lower()
